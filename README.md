@@ -32,14 +32,3 @@ Start the application:
 npm start
 
 The application will run at `http://localhost:3000`.
-
-### Sample Login Request
-
-You can use the following example to make a POST request for login:
-curl -X POST http://localhost:3000/login\
--H "Content-Type: application/json" \
--d '{
-"username": "your_username",
-"password": "your_password",
-"cf-turnstile-response": "your_turnstile_response"
-}'
